@@ -1,0 +1,14 @@
+diff --git a/bin/make_sandbox_from_installed b/bin/make_sandbox_from_installed
+index e9e61ff..0afdea8 100755
+--- a/bin/make_sandbox_from_installed
++++ b/bin/make_sandbox_from_installed
+@@ -96,7 +96,8 @@ for my $prefix (@prefixes) {
+         $found_install_db =1;
+     }
+     if ( glob("$prefix/lib/mysql/libmysqlclient*") 
+-       or glob( "$prefix/lib/libmysqlclient*")  ) {
++       or glob( "$prefix/lib/libmysqlclient*")
++       or glob( "$prefix/lib/x86_64-linux-gnu/libmysqlclient*") {
+         $found_libraries =1;
+     }
+ }
