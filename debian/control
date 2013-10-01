@@ -1,20 +1,24 @@
 Source: mysql-sandbox
-Section: unknown
+Section: utils
 Priority: extra
 Maintainer: Andrew Garner <andrew.garner@rackspace.com>
 Build-Depends: debhelper (>= 8.0.0)
 Standards-Version: 3.9.3
-Homepage: <insert the upstream URL, if relevant>
+Homepage: http://mysqlsandbox.net/
 #Vcs-Git: git://git.debian.org/collab-maint/mysql-sandbox.git
 #Vcs-Browser: http://git.debian.org/?p=collab-maint/mysql-sandbox.git;a=summary
 
 Package: mysql-sandbox
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
-Description: <insert up to 60 chars description>
- <insert long description, indented with spaces>
+Description: Quickly installs MySQL side server, either standalone or in groups
+ This package is a sandbox for testing features under any version of MySQL
+ from 3.23 to 6.0.
+ .
+ It will install one node under your home directory, and it will provide some
+ useful commands to start, use and stop this sandbox.
+ .
+ With this package you can play with new MySQL releases without need of using
+ other computers. The server installed in the sandbox use non-standard data
+ directory, ports and sockets, so they won't interfere with existing MYSQL installations.
 
-Package: mysql-sandbox-doc
-Architecture: all
-Description: documentation for mysql-sandbox
- <insert long description, indented with spaces>
