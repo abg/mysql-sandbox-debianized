@@ -20,5 +20,6 @@ Description: Quickly installs MySQL side server, either standalone or in groups
  .
  With this package you can play with new MySQL releases without need of using
  other computers. The server installed in the sandbox use non-standard data
- directory, ports and sockets, so they won't interfere with existing MYSQL installations.
+ directory, ports and sockets, so they won't interfere with existing MYSQL
+ installations.
 
