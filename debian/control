@@ -1,0 +1,20 @@
+Source: mysql-sandbox
+Section: unknown
+Priority: extra
+Maintainer: Andrew Garner <andrew.garner@rackspace.com>
+Build-Depends: debhelper (>= 8.0.0)
+Standards-Version: 3.9.3
+Homepage: <insert the upstream URL, if relevant>
+#Vcs-Git: git://git.debian.org/collab-maint/mysql-sandbox.git
+#Vcs-Browser: http://git.debian.org/?p=collab-maint/mysql-sandbox.git;a=summary
+
+Package: mysql-sandbox
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: <insert up to 60 chars description>
+ <insert long description, indented with spaces>
+
+Package: mysql-sandbox-doc
+Architecture: all
+Description: documentation for mysql-sandbox
+ <insert long description, indented with spaces>
